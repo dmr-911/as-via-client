@@ -1,16 +1,16 @@
-import '../styles/css/bootstrap.min.css';
-import '../styles/css/animate.css';
+import "../styles/css/bootstrap.min.css";
+import "../styles/css/animate.css";
 import AOS from "aos";
 import "swiper/css";
 import "swiper/css/bundle";
 import "../node_modules/aos/dist/aos.css";
-import '../styles/css/icofont.css';
-import 'react-accessible-accordion/dist/fancy-example.css';
+import "../styles/css/icofont.css";
+import "react-accessible-accordion/dist/fancy-example.css";
 // Global Styles
-import '../styles/css/style.css';
+import "../styles/css/style.css";
 
 // Default Color
-import '../styles/color/color-default.css';
+import "../styles/color/color-default.css";
 // import '../styles/color/gradient-color-one.css';
 // import '../styles/color/gradient-color-two.css';
 // import '../styles/color/gradient-color-three.css';
@@ -25,40 +25,35 @@ import '../styles/color/color-default.css';
 // import '../styles/color/gradient-color-eight.css';
 
 // Global Responsive Styles
-import '../styles/css/responsive.css';
+import "../styles/css/responsive.css";
 
 // For RTL Styles
 // import '../styles/css/rtl.css';
 
-import Head from 'next/head';
-import React from 'react';
-import GoTop from '../components/Common/GoTop';
-import SidebarDemosModal from '../components/Common/SidebarDemosModal';
+import Head from "next/head";
+import React from "react";
+import GoTop from "../components/Common/GoTop";
+import SidebarDemosModal from "../components/Common/SidebarDemosModal";
 
 function MyApp({ Component, pageProps }) {
-    React.useEffect(() => {
-      AOS.init();
-    }, []);
-    return (
-      <>
-        <Head>
-          <title>
-            Jibo - Mobile App & Software Landing Page React Template
-          </title>
-          <meta 
-            name="viewport" 
-            content="initial-scale=1.0, width=device-width" 
-          />
-        </Head>
-  
-        <Component {...pageProps} />
+  React.useEffect(() => {
+    AOS.init();
+  }, []);
+  return (
+    <>
+      <Head>
+        <title>As Via</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
 
-        <GoTop scrollStepInPx="50" delayInMs="16.66" />
+      <Component {...pageProps} />
 
-        {/* SidebarDemosModal */}
-        <SidebarDemosModal />
-      </>
-    );
+      <GoTop scrollStepInPx="50" delayInMs="16.66" />
+
+      {/* SidebarDemosModal */}
+      <SidebarDemosModal />
+    </>
+  );
 }
-  
+
 export default MyApp;
