@@ -8,12 +8,7 @@ const sliderData = [
     heading: "Manage all of your Stuff Using a Jibo",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     image: "/images/app-mockup-1.png",
-  },
-  {
-    heading: "Awesome Jibo Mobile App",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/images/app-mockup-2.png",
-  },
+  }
 ];
 
 const Slider = () => {
