@@ -4,21 +4,23 @@ import { Navigation, Pagination } from "swiper";
 
 const screenshotsData = [
   {
-    image: "/images/screenshot/screenshots1.png",
+    image: "/images/screenshot/imagesscreenshotscreenshots1.gif",
   },
   {
-    image: "/images/screenshot/screenshots2.png",
+    image: "/images/screenshot/imagesscreenshotscreenshots2.gif",
   },
   {
-    image: "/images/screenshot/screenshots3.png",
+    image: "/images/screenshot/imagesscreenshotscreenshots3.gif",
   },
   {
-    image: "/images/screenshot/screenshots4.png",
+    image: "/images/screenshot/imagesscreenshotscreenshots4.gif",
   },
   {
-    image: "/images/screenshot/screenshots5.png",
+    image: "/images/screenshot/imagesscreenshotscreenshots5.gif",
   },
 ];
+
+console.log(screenshotsData[0].image);
 
 const Screenshots = () => {
   return (
@@ -63,13 +65,13 @@ const Screenshots = () => {
             className="screenshot-slider"
           >
             {screenshotsData &&
-            screenshotsData.map((value, i) => (
-              <SwiperSlide key={i}>
-                <div className="screenshot-item">
-                  <img src={value.image} alt="Screenshot Image" />
-                </div>
-              </SwiperSlide>
-            ))}
+              screenshotsData.map((value, i) => (
+                <SwiperSlide key={i}>
+                  <div className="screenshot-item">
+                    <img src={value.image} alt="Screenshot Image" />
+                  </div>
+                </SwiperSlide>
+              ))}
           </Swiper>
         </div>
       </section>
