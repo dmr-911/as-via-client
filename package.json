@@ -1,0 +1,27 @@
+{
+    "name": "jibo",
+    "version": "2.0.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "author": "EnvyTheme.com",
+    "license": "ISC",
+    "description": "Jibo - Mobile App & Software Landing Page React Template",
+    "dependencies": {
+        "aos": "^2.3.4",
+        "fslightbox-react": "^1.6.3",
+        "next": "^12.0.4",
+        "react": "^18.2.0",
+        "react-accessible-accordion": "^5.0.0",
+        "react-anchor-link-smooth-scroll": "^1.0.12",
+        "react-dom": "^18.2.0",
+        "react-tsparticles": "^2.8.0",
+        "react-visibility-sensor": "^5.1.1",
+        "sass": "^1.44.0",
+        "swiper": "^9.0.1",
+        "tsparticles": "^2.8.0"
+    }
+}
