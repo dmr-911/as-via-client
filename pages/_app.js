@@ -51,7 +51,6 @@ function MyApp({ Component, pageProps }) {
       <GoTop scrollStepInPx="50" delayInMs="16.66" />
 
       {/* SidebarDemosModal */}
-      <SidebarDemosModal />
     </>
   );
 }

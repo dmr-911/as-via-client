@@ -20,8 +20,6 @@ const screenshotsData = [
   },
 ];
 
-console.log(screenshotsData[0].image);
-
 const Screenshots = () => {
   return (
     <>

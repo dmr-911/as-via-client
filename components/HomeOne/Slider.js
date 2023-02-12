@@ -5,10 +5,11 @@ import VisibilitySensor from "react-visibility-sensor";
 
 const sliderData = [
   {
-    heading: "Manage all of your Stuff Using a Jibo",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    heading:
+      "Get AI Assistance 24/7 with Ask Via - The WhatsApp-Integrated, GPT-3 Powered Solution!",
+    text: " Say hello to fast, accurate, and always-available AI assistance with Ask Via. With seamless integration into WhatsApp and the power of GPT-3 technology, you'll have your own virtual assistant ready to answer your questions and complete tasks anytime you need. Experience the future of hyperintelligent assistance with Ask Via - Available 24/7 in 180+ countries!",
     image: "/images/app-mockup-1.png",
-  }
+  },
 ];
 
 const Slider = () => {
@@ -65,7 +66,7 @@ const Slider = () => {
                                     `}
                                   >
                                     <i className="icofont-cloud-download"></i>
-                                    Download
+                                    Subscribe
                                   </a>
                                   <a
                                     href="#"
@@ -77,7 +78,7 @@ const Slider = () => {
                                       }
                                     `}
                                   >
-                                    Learn More
+                                    Try for free in WhatsApp
                                   </a>
                                 </div>
                               </div>
