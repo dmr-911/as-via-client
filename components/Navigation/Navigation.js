@@ -150,7 +150,7 @@ export default class Navigation extends Component {
         >
           <div className="container">
             <a className="navbar-brand" href="/">
-              Jibo
+              As Via
             </a>
 
             <button
